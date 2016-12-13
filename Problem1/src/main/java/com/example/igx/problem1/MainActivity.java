@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity /* implements Something1, So
         btn_sendMessage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                EditText edit_phoneNumber = EditText) findViewById(R.id.edit_phoneNumber);
 
             }
         });

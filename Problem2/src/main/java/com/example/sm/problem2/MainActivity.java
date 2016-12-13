@@ -33,11 +33,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         switch (v.getId()){
             case R.id.btn_inc:
-                // need something here
+                increase();
                 break;
 
             case R.id.btn_dec:
-                // need something here
+                decrease();
                 break;
 
             case R.id.btn_store:
