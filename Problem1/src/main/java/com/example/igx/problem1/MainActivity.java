@@ -24,7 +24,9 @@ public class MainActivity extends AppCompatActivity /* implements Something1, So
 
         btn_getLocation.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View v){
+                TextView text_selectedType = (TextView) "LOCATION";
+
 
             }
         });
@@ -32,6 +34,7 @@ public class MainActivity extends AppCompatActivity /* implements Something1, So
         btn_getSensors.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                TextView text_selectedData = (TextView) findViewById(R.id.text_selectedType);
 
             }
         });
